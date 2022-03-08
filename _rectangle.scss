@@ -1,0 +1,8 @@
+.rectangle {
+    // har inte hittat rätt flex, men släpper det pga tidsbrist.
+    background-image: url("/images/Rectangle.png");
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,54 @@
+.bg-img-2 {
+    background-image: url("/images/image-2.png");
+    min-height: 685px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img-2__wrapper {
+    // display: flex;
+    // flex-direction: column;
+    max-width: 560px;
+    width: 100%;
+}
+
+.bg-img-2__heading {
+    font-family: 'aleo', sans-serif;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-img-2__paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+
+.bg-img-2__btn {
+    background-color: #496BFE;
+    width: 228px;
+    height: 63px;
+    font-family: 'aleo', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.bg-img-2__front-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-img-2__front-images-2b {
+    position: relative;
+    left: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+    .bg-img-2 {
+        display: flex;
+        flex-direction: column;
+    }
+}

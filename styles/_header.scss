@@ -1,16 +1,51 @@
-//header {
-// box-sizing: border-box;// // background-image: url("/images/image-1.png");
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: 1770px;
-// width: 1770px;
-// height: 820px;
-// border: 10px solid red;
-//}
-h1 {
-    font-size: 800px;
-    color: red;
-    font-style: 700;
+.bg-img-1 {
+    background-image: url("/images/image-1.png");
+    min-height: 821px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__heading {
+    font-size: 48px;
     z-index: 1;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header__paragraph {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 6.82px;
+}
+
+.header__form-wrapper {
+    display: flex;
+    flex-direction: row;
+    // max-width: 653px;
+}
+
+.header__btn {
+    text-transform: uppercase;
+    background-color: #5474FD;
+    font-family: 'aleo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+
+.header__scroll-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    text-align: center;
+    position: relative;
+    top: 50px;
 }

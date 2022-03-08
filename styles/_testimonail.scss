@@ -1,0 +1,46 @@
+.bg-img-5 {
+    background-image: url("/images/image-5.png");
+    min-height: 731px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img-5__heading {
+    font-family: 'aleo', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.bg-img-5__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img-5__portrait {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.bg-img-5__sam-summon {
+    font-size: 20px;
+    color: #FEFEFE;
+}
+
+.bg-img-5__text-wrapper {
+    max-width: 668px;
+    width: 100%;
+    padding-left: 30px;
+    background-color: #333333cc;
+}
+
+@media only screen and (max-width: 450px) {
+    .bg-img-5 {
+        display: flex;
+        flex-direction: column;
+    }
+}
