@@ -1,0 +1,60 @@
+// * {
+//     box-sizing: border-box;
+// }
+body {
+    // border: 10px solid black;
+    width: 1770px;
+    height: 3800px;
+    font-family: 'Mulish';
+    // color: #111111;
+    font-weight: bold;
+    // font-size: 16px;
+    line-height: auto;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    // z-index: -1;
+    // background-image: url("/images/image-1.png"), url("/images/image-2.png"), url("/images/Rectangle-1.png"), url("/images/image-3.png"), url("/images/image-4.png"), url("/images/image-5.png"), url("/images/rectangle-2.png");
+    // background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat no-repeat;
+    // background-position: top, top center 821px, top center, center, bottom center, center, bottom center;
+}
+
+.bg-image {
+    z-index: -1;
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1770px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+}
+
+.bg-img-1 {
+    background-image: url("/images/image-1.png");
+    height: 821px;
+}
+
+.bg-img-2 {
+    background-image: url("/images/image-2.png");
+    height: 685px;
+}
+
+.rectangle {
+    background-image: url("/images/Rectangle.png");
+    height: 340px;
+}
+
+.bg-img-3 {
+    background-image: url("/images/image-3.png");
+    height: 1400px;
+}
+
+.bg-img-4 {
+    background-image: url("/images/image-4.png");
+    height: 731px;
+}
+
+.bg-img-5 {
+    background-image: url("/images/image-5.png");
+}
